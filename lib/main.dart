@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:project_if22c/config/asset.dart';
+import 'package:project_if22c/screen/login.dart';
 
 void main() {
   runApp(const MyApp());
