@@ -10,6 +10,9 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return SingleChildScrollView(
+      padding: EdgeInsets.all(10),
+      child: Text("Selamat datang di home screen"),
+    );
   }
 }
